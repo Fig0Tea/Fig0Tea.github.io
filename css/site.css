@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-color: #26211E;
+    color: #D1BCA1;
+}
+.footer{
+    width: 100%;
+    height: 25%;
+    background: #B38047;
+}
+.nav{
+    justify-content: space-around;
+}
+.header{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.delivery{
+    color: #D1BCA1;
+    font-size: 24pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+    padding-right: 45.11px;
+}
+.delivery :hover{ 
+    color: #B38047;
+}
+.aboutus{
+    color: #D1BCA1;
+    font-size: 24pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+    padding-right: 45.11px;
+}
+.aboutus :hover{ 
+    color: #B38047;
+}
+.bott{
+    width: 240px;
+    height: 60px;
+    background: #B38047;
+    color: #26211E;
+    font-size: 20pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+.botti{
+    padding-right: 45.11px;
+}
+.botti :hover{
+    background: #D1BCA1; 
+    color: #B38047;
+}
+.bott1{
+    width: 60px;
+    height: 60px;
+    background: #B38047;
+    color: #26211E;
+    font-size: 20pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+.botti1 :hover{
+    background: #D1BCA1; 
+    color: #B38047;
+}
+.bott2{
+    width: 130px;
+    height: 60px;
+    background: #B38047;
+    color: #26211E;
+    font-size: 20pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+.botti1{
+    padding-right: 45.11px;
+}
+.botti2{
+    padding-left: 45.11px;
+}
+.botti2 :hover{
+    background: #D1BCA1; 
+    color: #B38047;
+}
+.lict{
+    color: #26211E;
+    font-size: 16pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+    list-style-type: none;
+}
+.lict :hover{ 
+    color: #ffffff;
+}
+.choice{
+    margin-top: 10%;
+    color: #D1BCA1;
+    font-size: 28pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    color: #D1BCA1;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #D1BCA1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #D1BCA1;
+}
+
+a:active {
+    text-decoration: none;
+    color: #D1BCA1;
+}
+.Subscribe{
+    width: 100px;
+    height: 40px;
+    background: #26211E;
+    color: #ffffff;
+    font-size: 12pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+    border: 0;
+}
+.ubscribe{
+    width: 250px;
+    height: 40px;
+    background: #D1BCA1;
+    color: #26211E;
+    font-size: 14pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+    border: 0;
+}
+.as{
+    width: 360px;
+    height: 35%;
+}
+#adress{ 
+    padding-left: 800px;
+}
+/*.ad{
+    width: 140px;
+    height: 35%;
+}*/
+.oteli{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ladno{
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: bold;;
+    font-size: 30px;
+    padding: 5px;
+    line-height: 20px;
+    color: #26211E;
+}
+
+.spisok{
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #26211E;
+    list-style-type: none;
+}
+.cenok{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+}
+.bsc-shopping-bag-2{
+    color: #26211E;
+
+}
+.bsc-shopping-bag-2:hover{
+    color: #B38047;
+}
+.ik{
+    width: 46px;
+    height: 46px;
+    color: #26211E;
+}
+.ic{
+    color: #26211E;
+    padding-left: 20px;
+}
+/*i.fab.fa-facebook-f {
+    width: 46px;
+    height: 46px;
+    color: #26211E;
+}
+i.fab.fa-youtube{
+    width: 46px;
+    height: 46px;
+    color: #26211E;
+}
+i.fa-brands.fa-x-twitter{
+    width: 46px;
+    height: 46px;
+    color: #26211E;
+}*/
+
+.ik:link {
+    text-decoration: none;
+    color: #26211E;
+}
+
+.ik:visited {
+    text-decoration: none;
+    color: #26211E;
+}
+
+.ik:hover {
+    text-decoration: none;
+    color: #26211E;
+}
+
+.ik:active {
+    text-decoration: none;
+    color: #26211E;
+}
+.sparkl{
+    width: 118px;
+    height: 114px;
+}
+.img{
+    width: 84px;
+    height: 84px;
+}
+
+
+.carousel { 
+    position: relative; 
+    width: 60%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+} 
+.slides { 
+    display: flex; 
+    transition: transform 1s ease; 
+} 
+.slides img { 
+    width: 100%; 
+    height: auto; 
+} 
+.carousel-indicators { 
+    position: center; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex; 
+} 
+/*.indicator { 
+    position: center; 
+    width: 10px; 
+    height: 10px; 
+    background-color: #D1BCA1; 
+    border-radius: 50%; margin: 0 5px; 
+    cursor: pointer; 
+} 
+.indicator.active { 
+    background-color: #26211E; 
+}*/
+
+.choice{
+    padding-bottom: 40px;
+}
+.prodyct{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pr{
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.product-card { 
+    width: 280px;
+    height: 520px; 
+    border: 1px solid #26211E; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    background-color: #D1BCA1; 
+} 
+.product-card img { 
+    width: 100%; 
+    height: auto; 
+} 
+.product-card .price { 
+    font-size: 20px; 
+    font-weight: bold;
+    color: #26211E;
+    font-size: 14pt;
+    font-family:'Comfortaa';
+    font-style: bold;  
+} 
+.product-card .quantity-selector { 
+    display: flex; 
+    font-size: 12pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px 0; 
+} 
+.product-card .quantity-selector input { 
+    width: 40px; 
+    text-align: center; 
+} 
+.product-card .add-to-cart { 
+    background-color: #B38047; 
+    color: #26211E;
+    font-size: 14pt;
+    font-family:'Comfortaa';
+    font-style: bold; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.monodrama{
+    padding-top: 40px;
+    border-radius:12px;
+    width: 50%;
+    height: 352px;
+    position: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+@media screen and (max-width: 800px) {
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
+}
+@media screen and (max-width: 600px) {
+.column {
+      flex: 100%;
+      max-width: 100%;
+}
+
+}
+.emg{
+    width: 150px;
+    height: 150px;
+}
+.legent{
+    color: #D1BCA1;
+    font-size: 24pt;
+    font-family:'Architects Daughter';
+    font-style: normal;
+}
+.str{
+    width: 250px;
+    height: 40px;
+    background: #D1BCA1;
+    color: #26211E;
+    font-size: 14pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7px;
+    border: 0;
+}
+.td{
+    color: #D1BCA1;
+} 
+.bott3{
+    width: 200px;
+    height: 40px;
+    background: #B38047;
+    color: #26211E;
+    font-size: 12pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+.botti3 :hover{
+    background: #D1BCA1; 
+    color: #B38047;
+}
+#from{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.fg{
+    font-size: 12pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+}
+.gender{
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+    background: #D1BCA1;
+    color: #26211E;
+    font-size: 12pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7px;
+    border: 0;
+}
+.img2{
+    margin: auto;
+    width: 139px;
+    height: 208px;
+}
+.rpg{
+    display: flex;
+    flex-direction: row;
+}
+.trt{
+    color: #D1BCA1;
+    font-size: 12pt;
+    font-family:'Architects Daughter';
+    font-style: normal
+}
+.mod{
+    position: absolute;
+    
+}
+.play{
+    width: 60px;
+    height: 60px;
+    background: #B38047;
+    color: #26211E;
+    font-size: 20pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+.play :hover{
+    background: #D1BCA1; 
+    color: #B38047;
+}
+#play{
+    width: 60px;
+    height: 60px;
+    background: #B38047;
+    color: #26211E;
+    font-size: 20pt;
+    font-family:'Comfortaa';
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+}
+#play :hover{
+    background: #D1BCA1; 
+    color: #B38047;
+}
+
+
+
